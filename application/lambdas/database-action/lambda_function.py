@@ -60,7 +60,7 @@ def lambda_handler(event, context):
         }
     
     # Fetch PostgreSQL connection details from environment variables
-    rds_host = os.environ.get('DB_HOST', 'petstore-instance-1.c7icaemqq3d4.us-east-1.rds.amazonaws.com')
+    rds_host = os.environ.get('DB_HOST', XXXXXXXXXXXXX)
     rds_db = os.environ.get('DB_NAME', 'petstore')
     rds_port = os.environ.get('DB_PORT', '5432')
     rds_username = os.environ.get('DB_USER', 'postgres')
